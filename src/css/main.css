@@ -1,19 +1,27 @@
-body {
-  background-color: aquamarine;
-}
-button {
-  border: 1px solid black;
-  padding: 5px 10px;
-  font-size: 2rem;
-  color: ghostwhite;
-  border-radius: 10px;
-}
-#redButton {
-  background-color: red;
-}
-#greenButton {
-  background-color: forestgreen;
-}
-#blueButton {
-  background-color: blue;
-}
+#clock
+	font-family Roboto
+	height 100vh
+	width 100vw
+	display flex
+	align-items center
+	justify-content center
+	color #fff
+	background-color #111
+	transition .5s
+	h1
+		font-size 7em
+		cursor pointer
+		transition .2s
+		&::selection
+      background-color transparent
+						
+.faded
+	opacity 0
+	
+#instruction
+	position absolute
+	width 100vw
+	text-align center
+	color #fff
+	font-family Roboto
+	font-size 18px

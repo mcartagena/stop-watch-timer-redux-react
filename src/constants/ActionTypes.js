@@ -1,0 +1,6 @@
+export const CHANGE_TO_LTS = 'CHANGE_TO_LTS'
+export const CHANGE_TO_LT = 'CHANGE_TO_LT'
+export const CHANGE_TO_l = 'CHANGE_TO_l'
+export const CHANGE_TO_MMMMDoYY = 'CHANGE_TO_MMMMDoYY'
+export const CHANGE_TO_LTSTime = 'CHANGE_TO_LTSTime'
+export const CHANGE_TO_LTTime = 'CHANGE_TO_LTTime'

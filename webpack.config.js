@@ -3,7 +3,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     //  Entry point of webpack
-    entry: './src/app.js',    
+    entry: './src/index.js',    
     output: {
         // Need to be resolved to absolute path
         path: path.resolve(__dirname, 'dist'),
@@ -19,7 +19,7 @@ module.exports = {
                 use: [
                     {
                         loader: 'babel-loader',
-                        options: { presets: ['es2015'] }
+                        options: { presets: [['react'],['es2015']]}
                     }
                 ]
             },

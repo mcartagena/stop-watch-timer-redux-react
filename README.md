@@ -24,7 +24,7 @@ $ mkdir stop-watch-timer-redux-react
 $ cd stop-watch-timer-redux-react
 $ npm init -y
 $ npm install react react-dom
-$ npm install --save-dev babel-core babel-loader@7 babel-preset-es2015 css-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server
+$ npm install --save-dev babel-core babel-loader@7 babel-preset-es2015 babel-preset-react css-loader html-webpack-plugin style-loader webpack webpack-cli webpack-dev-server
 ```
 
 ### Plugins
@@ -58,6 +58,14 @@ Install the dependencies for redux.
 
 ```sh
 $ npm install react-redux redux redux-thunk redux-logger
+```
+
+### Moment.js
+
+Parse, validate, manipulate, and display dates and times in JavaScript.
+
+```sh
+$ npm install moment --save
 ```
 
 License
