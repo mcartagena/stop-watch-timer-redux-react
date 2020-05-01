@@ -1,6 +1,4 @@
 import React from 'react'
-import moment from 'moment'
-import { getLTSFormat, getLTFormat, getlFormat, getMMMMDoYYFormat } from '../actions/index'
 
 class Clock extends React.Component {
 
